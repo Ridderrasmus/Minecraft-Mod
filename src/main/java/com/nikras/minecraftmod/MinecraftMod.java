@@ -17,6 +17,6 @@ public class MinecraftMod
     public void init(FMLInitializationEvent event)
     {
         // some example code
-        System.out.println("Nikolaj Sutter");
+        System.out.println("FUCKING CUNT");
     }
 }
