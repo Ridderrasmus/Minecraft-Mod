@@ -3,6 +3,7 @@ package com.nikras.minecraftmod;
 import com.nikras.minecraftmod.Reference.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.init.Blocks;
 
 /**
@@ -12,9 +13,8 @@ import net.minecraft.init.Blocks;
 
 public class MinecraftMod
 {
-
     @Mod.EventHandler
-    public void init(FMLInitializationEvent event)
+    public void PreInit(FMLPreInitializationEvent event)
     {
         // some example code
         System.out.println("Testing the mod");
